@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name polulu)(type KiCad)(uri ${KIPRJMOD}/polulu.pretty)(options "")(descr ""))
+  (lib (name CNCRouter)(type KiCad)(uri ${KIPRJMOD}/CNCRouter.pretty)(options "")(descr ""))
+)

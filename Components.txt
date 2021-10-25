@@ -1,0 +1,28 @@
+Przetwornice DC/DC
+
+https://www.tme.eu/pl/details/smu01n-05/przetworniki-dc-dc/mean-well/
+https://www.tme.eu/pl/details/smu01n-12/przetworniki-dc-dc/mean-well/
+
+Dławik
+https://www.tme.eu/pl/details/nlv10jt180/dlawiki-smd-1210/viking/
+
+Kondensatory Elektrolityczne
+https://www.tme.eu/pl/details/ce-2.2_100pht-y/kondensatory-elektrolityczne-tht-105degc/aishi/
+https://www.tme.eu/pl/details/ce-220_100a/kondensatory-elektrolityczne-tht-85degc/vishay/mal202119221e3/
+
+Złącza na płytkę 10 pin
+PCB - FFKDSA1/H-2,54-10 - 1789333
+
+
+
+Kable
+Z Axis
+Motor 4x0.75C 50 cm
+LSMax 3x0.5C 50 cm
+LSMin 3x0.5C 50 cm
+Probe
+
+
+
+
+

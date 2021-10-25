@@ -1,0 +1,43 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# emergency_switch
+#
+DEF emergency_switch S 0 40 Y Y 1 F N
+F0 "S" -100 300 50 H V C CNN
+F1 "emergency_switch" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 0 112 266 1534 0 1 0 N 100 50 -100 50
+C -200 0 50 0 1 0 N
+C 200 0 50 0 1 0 N
+P 2 0 1 0 -200 -50 200 -50 N
+P 2 0 1 0 0 -50 0 100 N
+X A ~ -350 0 100 R 50 50 1 1 P
+X B ~ 350 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# proximity_sensor
+#
+DEF proximity_sensor S 0 40 Y Y 1 F N
+F0 "S" -350 550 89 H V C CNN
+F1 "proximity_sensor" 50 -550 89 H V C CNN
+F2 "" 0 0 89 H I C CNN
+F3 "" 0 0 89 H I C CNN
+DRAW
+T 0 -250 -200 89 0 0 0 FE Normal 0 C C
+T 0 200 -200 89 0 0 0 NC Normal 0 C C
+T 0 200 150 89 0 0 0 PNP Normal 0 C C
+S -400 400 400 -400 0 1 0 N
+P 2 0 1 0 -300 200 -300 100 N
+P 2 0 1 0 -200 200 -200 100 N
+P 5 0 1 0 -250 250 -350 150 -250 50 -150 150 -250 250 N
+X GND ~ -500 -350 100 R 50 50 1 1 I
+X Out ~ -500 0 100 R 50 50 1 1 I
+X VCC ~ -500 300 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

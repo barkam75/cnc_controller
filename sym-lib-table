@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Polulu)(type Legacy)(uri ${KIPRJMOD}/Polulu.lib)(options "")(descr ""))
+  (lib (name aux_dev)(type Legacy)(uri ${KIPRJMOD}/aux_dev.lib)(options "")(descr ""))
+  (lib (name aux_symbols)(type Legacy)(uri ${KIPRJMOD}/EE/ConnectionDiagram/aux_symbols.lib)(options "")(descr ""))
+)
